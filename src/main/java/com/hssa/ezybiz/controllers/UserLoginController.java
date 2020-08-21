@@ -153,6 +153,7 @@ public class UserLoginController {
 		request.getRemoteHost();
 		Customer customer = null;
 		try {
+
 			InetAddress address = InetAddress.getByName(request.getRemoteAddr());
 			//logger.info(address.getCanonicalHostName());
 		} catch (Exception exception) {
