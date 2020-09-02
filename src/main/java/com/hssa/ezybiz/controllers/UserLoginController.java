@@ -125,6 +125,7 @@ public class UserLoginController {
 	@Autowired
 	private LdapAuthenticationService ldapAuthenticationService;
 	
+
 	@Autowired
 	private AuthenticationManager authenticationManager;
 	
